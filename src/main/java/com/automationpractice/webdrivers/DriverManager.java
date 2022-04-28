@@ -18,7 +18,6 @@ public class DriverManager {
     public static void quitDriver() {
         if(getDriver() != null) {
             getDriver().quit();
-            ExtentTestManager.getTest().log(Status.INFO, "Terminou de Teste.");
         }
     }
 }
